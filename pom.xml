@@ -8,7 +8,7 @@
 
  <modelVersion>4.0.0</modelVersion>
  <artifactId>like-server-api</artifactId>
- <version>0.0.1-SNAPSHOT</version>
+ <version>0.0.2</version>
 
 
  <name>like-api</name>
@@ -27,7 +27,7 @@
   <!-- Metalcon repository to resolve dependencies from -->
   <repository>
    <id>metalcon-depend</id>
-   <url>http://metalcon2.physik.uni-mainz.de:8080/mvn/</url>
+   <url>http://develop.metalcon.de:8080/mvn/</url>
   </repository>
  </repositories>
 </project>
