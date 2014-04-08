@@ -10,11 +10,11 @@
  <artifactId>like-server-api</artifactId>
  <version>0.1.0</version>
  <properties>
-    <!-- version of Metalcon domain -->
-    <muid.version>0.2.0-SNAPSHOT</muid.version>
-    <!-- version of Metalcon API -->
-    <metalcon.api.version>0.1.0</metalcon.api.version>
-  </properties>
+  <!-- version of Metalcon domain -->
+  <muid.version>0.3.1</muid.version>
+  <!-- version of Metalcon API -->
+  <metalcon.api.version>0.1.0</metalcon.api.version>
+ </properties>
 
  <name>like-server-api</name>
  <url>https://github.com/Metalcon/likeButtonServerApi</url>
@@ -26,20 +26,20 @@
    <version>4.8.2</version>
    <scope>test</scope>
   </dependency>
-  
+
   <dependency>
-    <groupId>de.metalcon</groupId>
-    <artifactId>muid</artifactId>
-    <version>${muid.version}</version>
+   <groupId>de.metalcon</groupId>
+   <artifactId>muid</artifactId>
+   <version>${muid.version}</version>
   </dependency>
-  
+
   <dependency>
-    <groupId>de.metalcon</groupId>
-    <artifactId>api</artifactId>
-    <version>${metalcon.api.version}</version>
-  </dependency>  
-  
-  
+   <groupId>de.metalcon</groupId>
+   <artifactId>api</artifactId>
+   <version>${metalcon.api.version}</version>
+  </dependency>
+
+
  </dependencies>
 
  <repositories>

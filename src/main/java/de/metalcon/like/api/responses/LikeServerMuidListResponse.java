@@ -2,24 +2,25 @@ package de.metalcon.like.api.responses;
 
 import java.util.ArrayList;
 
-import de.metalcon.domain.Muid;
+import de.metalcon.domain.Uid;
 
 public class LikeServerMuidListResponse extends LikeServerResponse {
 
-	private static final long serialVersionUID = 8296147198358324254L;
+    private static final long serialVersionUID = 8296147198358324254L;
 
-	final long[] muids;
+    final long[] uids;
 
-	public LikeServerMuidListResponse(final long[] muids) {
-		super();
-		this.muids = muids;
-	}
+    public LikeServerMuidListResponse(
+            final long[] uids) {
+        super();
+        this.uids = uids;
+    }
 
-	public ArrayList<Muid> getMuidList() {
-		ArrayList<Muid> tmp = new ArrayList<Muid>(muids.length);
-		for (int i = 0; i < muids.length; i++) {
-			tmp.add(new Muid(muids[i]));
-		}
-		return tmp;
-	}
+    public ArrayList<Uid> getUidList() {
+        ArrayList<Uid> tmp = new ArrayList<Uid>(uids.length);
+        for (long muid : uids) {
+            tmp.add(Uid.createFromID(muid));
+        }
+        return tmp;
+    }
 }

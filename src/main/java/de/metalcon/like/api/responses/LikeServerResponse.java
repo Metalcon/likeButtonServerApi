@@ -4,12 +4,9 @@ import de.metalcon.api.responses.SuccessResponse;
 
 public class LikeServerResponse extends SuccessResponse {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 7795142053066735687L;
+    private static final long serialVersionUID = 7795142053066735687L;
 
-	public LikeServerResponse() {
-		super();
-	}
+    public LikeServerResponse() {
+        super();
+    }
 }
