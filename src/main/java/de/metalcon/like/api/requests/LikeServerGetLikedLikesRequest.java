@@ -1,6 +1,6 @@
 package de.metalcon.like.api.requests;
 
-import de.metalcon.domain.Muid;
+import de.metalcon.domain.Uid;
 import de.metalcon.like.api.Vote;
 
 /**
@@ -10,30 +10,32 @@ import de.metalcon.like.api.Vote;
  */
 public class LikeServerGetLikedLikesRequest extends LikeServerRequest {
 
-	private static final long serialVersionUID = 6343693277618740104L;
+    private static final long serialVersionUID = 6343693277618740104L;
 
-	private final long node;
+    private final long node;
 
-	private final Vote vote;
+    private final Vote vote;
 
-	/**
-	 * @param node
-	 *            muid of the requested (node)
-	 * @param vote
-	 *            the type of the relation: Vote.UP or Vote.DOWN
-	 */
-	public LikeServerGetLikedLikesRequest(final Muid node, final Vote vote) {
-		super();
-		this.node = node.getValue();
-		this.vote = vote;
-	}
+    /**
+     * @param node
+     *            uid of the requested (node)
+     * @param vote
+     *            the type of the relation: Vote.UP or Vote.DOWN
+     */
+    public LikeServerGetLikedLikesRequest(
+            final Uid node,
+            final Vote vote) {
+        super();
+        this.node = node.getValue();
+        this.vote = vote;
+    }
 
-	public long getNode() {
-		return node;
-	}
+    public long getNode() {
+        return node;
+    }
 
-	public Vote getVote() {
-		return vote;
-	}
+    public Vote getVote() {
+        return vote;
+    }
 
 }

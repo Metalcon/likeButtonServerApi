@@ -8,12 +8,12 @@
 
  <modelVersion>4.0.0</modelVersion>
  <artifactId>like-server-api</artifactId>
- <version>0.1.0</version>
+ <version>0.2.0</version>
  <properties>
   <!-- version of Metalcon domain -->
-  <muid.version>0.3.1</muid.version>
+  <muid.version>0.3.2</muid.version>
   <!-- version of Metalcon API -->
-  <metalcon.api.version>0.1.0</metalcon.api.version>
+  <metalcon.api.version>0.1.1</metalcon.api.version>
  </properties>
 
  <name>like-server-api</name>
