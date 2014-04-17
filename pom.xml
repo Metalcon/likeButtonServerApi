@@ -8,7 +8,7 @@
 
  <modelVersion>4.0.0</modelVersion>
  <artifactId>like-server-api</artifactId>
- <version>0.2.0</version>
+ <version>0.3.0</version>
  <properties>
   <!-- version of Metalcon domain -->
   <muid.version>0.3.2</muid.version>
