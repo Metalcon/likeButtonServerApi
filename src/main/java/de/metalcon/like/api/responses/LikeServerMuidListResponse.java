@@ -17,10 +17,18 @@ public class LikeServerMuidListResponse extends LikeServerResponse {
     }
 
     public ArrayList<Uid> getUidList() {
+        if (uids == null) {
+            return null;
+        }
+
         ArrayList<Uid> tmp = new ArrayList<Uid>(uids.length);
         for (long muid : uids) {
             tmp.add(Uid.createFromID(muid));
         }
         return tmp;
+    }
+
+    public long[] getRawUids() {
+        return uids;
     }
 }

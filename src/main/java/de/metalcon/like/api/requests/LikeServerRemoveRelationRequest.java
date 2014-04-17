@@ -6,6 +6,8 @@ import de.metalcon.domain.Uid;
  * Removes a relation between two nodes
  * 
  * (from) -[:(dis)like]-> (to)
+ * 
+ * Response to this request: RequestQueuedResponse
  */
 public class LikeServerRemoveRelationRequest extends LikeServerRequest {
 

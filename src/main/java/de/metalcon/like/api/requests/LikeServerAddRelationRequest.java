@@ -7,6 +7,8 @@ import de.metalcon.like.api.Vote;
  * Adds a new relation between two nodes
  * 
  * (from) -[:(dis)like]-> (to)
+ * 
+ * Response to this request: RequestQueuedResponse
  */
 public class LikeServerAddRelationRequest extends LikeServerRequest {
 
