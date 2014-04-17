@@ -8,6 +8,9 @@ import de.metalcon.like.api.Vote;
  * Retrieves all neighbour nodes of (node)
  * 
  * (node) <-[:vote]-> (X)
+ * 
+ * Response to this request: LikeServerMuidListResponse or
+ * InternalServerErrorResponse
  */
 public class LikeServerGetLikesRequest extends LikeServerRequest {
 

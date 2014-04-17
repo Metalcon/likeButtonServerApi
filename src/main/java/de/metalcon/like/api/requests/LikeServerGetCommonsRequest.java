@@ -7,6 +7,8 @@ import de.metalcon.like.api.Vote;
  * Retrieves the list of common neighbors (X) such that
  * 
  * (from) -[:like]-> (X) -[:like]-> (to)
+ * 
+ * Response to this request: LikeServerMuidListResponse
  */
 public class LikeServerGetCommonsRequest extends LikeServerRequest {
 

@@ -5,6 +5,7 @@ import de.metalcon.domain.Uid;
 /**
  * Retrieves the relation between the node (from) and (two)
  * 
+ * Response to this request: LikeServerVoteResponse
  */
 public class LikeServerFollowsRequest extends LikeServerRequest {
 

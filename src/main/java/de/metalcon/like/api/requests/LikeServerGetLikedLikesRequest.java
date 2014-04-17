@@ -7,6 +7,7 @@ import de.metalcon.like.api.Vote;
  * Retrieves all nodes (Y) with distance 2 of (node) so that
  * 
  * (node) [:vote]-> (X) [:vote]-> (Y)
+ * Response to this request: LikeServerMuidListResponse
  */
 public class LikeServerGetLikedLikesRequest extends LikeServerRequest {
 
