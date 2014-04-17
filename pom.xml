@@ -3,7 +3,7 @@
  <parent>
   <groupId>de.metalcon</groupId>
   <artifactId>pom</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.9</version>
  </parent>
 
  <modelVersion>4.0.0</modelVersion>
@@ -19,6 +19,25 @@
  <name>like-server-api</name>
  <url>https://github.com/Metalcon/likeButtonServerApi</url>
 
+ <licenses>
+  <license>
+   <name>GNU General Public License 3.0</name>
+   <url>http://www.gnu.org/licenses/gpl.html</url>
+   <distribution>repo</distribution>
+  </license>
+ </licenses>
+
+ <developers>
+  <developer>
+   <id>jonaskunze</id>
+   <name>Jonas Kunze</name>
+   <email>kunze.jonas@gmail.com</email>
+   <roles>
+    <role>developer</role>
+   </roles>
+  </developer>
+ </developers>
+  
  <dependencies>
   <dependency>
    <groupId>junit</groupId>
