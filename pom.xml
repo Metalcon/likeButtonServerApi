@@ -3,18 +3,12 @@
  <parent>
   <groupId>de.metalcon</groupId>
   <artifactId>pom</artifactId>
-  <version>0.0.9</version>
+q  <version>0.0.15</version>
  </parent>
 
  <modelVersion>4.0.0</modelVersion>
  <artifactId>like-server-api</artifactId>
- <version>0.3.0</version>
- <properties>
-  <!-- version of Metalcon domain -->
-  <muid.version>0.3.2</muid.version>
-  <!-- version of Metalcon API -->
-  <metalcon.api.version>0.1.1</metalcon.api.version>
- </properties>
+ <version>0.3.1</version>
 
  <name>like-server-api</name>
  <url>https://github.com/Metalcon/likeButtonServerApi</url>
@@ -37,7 +31,7 @@
    </roles>
   </developer>
  </developers>
-  
+
  <dependencies>
   <dependency>
    <groupId>junit</groupId>
@@ -49,15 +43,14 @@
   <dependency>
    <groupId>de.metalcon</groupId>
    <artifactId>muid</artifactId>
-   <version>${muid.version}</version>
+   <version>${metalcon.muid.version}</version>
   </dependency>
 
   <dependency>
    <groupId>de.metalcon</groupId>
-   <artifactId>api</artifactId>
-   <version>${metalcon.api.version}</version>
+   <artifactId>backend-api</artifactId>
+   <version>${metalcon.backendApi.version}</version>
   </dependency>
-
 
  </dependencies>
 
